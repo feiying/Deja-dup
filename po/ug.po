@@ -1,0 +1,1490 @@
+# Uyghur translation for deja-dup
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the deja-dup package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deja-dup\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-07-20 19:31-0400\n"
+"PO-Revision-Date: 2012-03-22 14:30+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Uyghur <ug@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2012-07-22 04:59+0000\n"
+"X-Generator: Launchpad (build 15654)\n"
+
+#. Translators: "Backup" is a noun
+#: ../data/deja-dup.desktop.in.h:1 ../data/deja-dup-ccpanel.desktop.in.h:1
+#: ../data/deja-dup-preferences.desktop.in.in.h:1 ../deja-dup/Prompt.vala:93
+#: ../deja-dup/Prompt.vala:127 ../deja-dup/StatusIcon.vala:133
+#: ../deja-dup/StatusIcon.vala:231 ../monitor/monitor.vala:115
+#: ../preferences/preferences-main.vala:52
+#: ../preferences/preferences-main.vala:66
+msgid "Backup"
+msgstr "زاپاسلاش"
+
+#. Translators: The name is a play on the French phrase "déjà vu" meaning
+#. "already seen", but with the "vu" replaced with "dup".  "Dup" in this
+#. context is itself a reference to both the underlying command line tool
+#. "duplicity" and the act of duplicating data for backup.  As a whole, the
+#. phrase "Déjà Dup" may not be very translatable.
+#: ../data/deja-dup.desktop.in.h:2 ../common/CommonUtils.vala:89
+#: ../deja-dup/main.vala:78 ../preferences/Preferences.vala:88
+#, c-format
+msgid "Déjà Dup Backup Tool"
+msgstr "Déjà Dup زاپاسلاش قورالى"
+
+#: ../data/deja-dup-ccpanel.desktop.in.h:2
+#: ../data/deja-dup-preferences.desktop.in.in.h:2
+msgid "Change your backup settings"
+msgstr "زاپاسلاش تەڭشىكىنى ئۆزگەرتىش"
+
+#. These keywords are used when searching for applications in dashes, etc.
+#: ../data/deja-dup-ccpanel.desktop.in.h:4
+#: ../data/deja-dup-preferences.desktop.in.in.h:4
+msgid "déjà;deja;dup;"
+msgstr "déjà;deja;dup;"
+
+#: ../data/deja-dup-ccpanel.desktop.in.h:5
+#: ../data/deja-dup-preferences.desktop.in.in.h:5
+msgid "Back Up Now"
+msgstr "ھازىرلا زاپاسلاش"
+
+#. Translators: Monitor in this sense means something akin to 'watcher', not
+#. a computer screen.  This program acts like a daemon that kicks off
+#. backups at scheduled times.
+#: ../data/deja-dup-monitor.desktop.in.in.h:1 ../monitor/monitor.vala:304
+msgid "Backup Monitor"
+msgstr "زاپاسلاش كۆزەتكۈچىسى"
+
+#: ../data/deja-dup-monitor.desktop.in.in.h:2
+msgid "Schedules backups at regular intervals"
+msgstr "قەرەللىك ھالدا پىلانلىق زاپاسلاش"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:1
+#: ../preferences/Preferences.vala:160
+msgid "Folders to back up"
+msgstr "زاپاسلىنىدىغان قىسقۇچلار"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:2
+msgid ""
+"This list of directories will be backed up. Reserved values $HOME, $DESKTOP, "
+"$DOCUMENTS, $DOWNLOAD, $MUSIC, $PICTURES, $PUBLIC_SHARE, $TEMPLATES, $TRASH, "
+"and $VIDEO are recognized as the user’s special directories. Relative "
+"entries are relative to the user’s home directory."
+msgstr ""
+"تىزىمدىكى مۇندەرىجىلەر زاپاسلىنىدۇ. شۇنداقلا $HOME، $DESKTOP، $DOCUMENTS، "
+"$DOWNLOAD، $MUSIC، $PICTURES، $PUBLIC_SHARE، $TEMPLATES، $TRASH, ۋە $VIDEO "
+"لار بولسا ئالاھىدە مۇندەرىجە سۈپىتىدە بىر تەرەپ قىلىنىدۇ. نىسپىي يول بولسا، "
+"ئىشلەتكۈچىنىڭ ماكان مۇندەرىجىسىگە نىسبەتەن نىسپىيدۇر."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:3
+#: ../preferences/Preferences.vala:168
+msgid "Folders to ignore"
+msgstr "زاپاسلانمايدىغان قىسقۇچلار"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:4
+msgid ""
+"This list of directories will not be backed up. Reserved values $HOME, "
+"$DESKTOP, $DOCUMENTS, $DOWNLOAD, $MUSIC, $PICTURES, $PUBLIC_SHARE, "
+"$TEMPLATES, $TRASH, and $VIDEO are recognized as the user’s special "
+"directories. Relative entries are relative to the user’s home directory."
+msgstr ""
+"تىزىمدىكى مۇندەرىجىلەر زاپاسلانمايدۇ. شۇنداقلا $HOME، $DESKTOP، $DOCUMENTS، "
+"$DOWNLOAD، $MUSIC، $PICTURES، $PUBLIC_SHARE، $TEMPLATES، $TRASH ۋە $VIDEO "
+"لار بولسا ئالاھىدە مۇندەرىجە سۈپىتىدە بىر تەرەپ قىلىنىدۇ. نىسپىي يول بولسا، "
+"ئىشلەتكۈچىنىڭ ماكان مۇندەرىجىسىگە نىسبەتەن نىسپىيدۇر."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:5
+msgid "Whether the welcome screen has been dismissed"
+msgstr "مەرھابا ئېكرانى كۆرۈنمىسۇنمۇ"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:6
+msgid "Whether to request the root password"
+msgstr "ئالىي ئىشلەتكۈچى(root) ئىمىنى تەلەپ قىلامدۇ"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:7
+msgid ""
+"Whether to request the root password when backing up from or restoring to "
+"system folders."
+msgstr ""
+"سىستېما قىسقۇچلىرىنى زاپاسلاش ياكى ئەسلىگە كەلتۈرۈشتە ئالىي ئىشلەتكۈچى(root) "
+"ئىمىنى تەلەپ قىلامدۇ يوق."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:8
+msgid "The last time Déjà Dup was run"
+msgstr "Déjà Dup نىڭ ئەڭ ئاخىرقى قېتىم ئىجرا بولغان ۋاقتى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:9
+msgid ""
+"The last time Déjà Dup was successfully run. This time should be in ISO 8601 "
+"format."
+msgstr ""
+"Déjà Dup نىڭ ئەڭ ئاخىرقى قېتىم مۇۋەپپەقىيەتلىك ئىجرا بولغان ۋاقتى. ۋاقىت "
+"چوقۇم ISO 8601 پىچىمىدا بولۇشى كېرەك."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:10
+msgid "The last time Déjà Dup backed up"
+msgstr "ئەڭ ئاخىرقى قېتىم Déjà Dup نىڭ زاپاس قىلغان ۋاقتى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:11
+msgid ""
+"The last time Déjà Dup successfully completed a backup. This time should be "
+"in ISO 8601 format."
+msgstr ""
+"ئەڭ ئاخىرقى قېتىم Déjà Dup نىڭ زاپاسلاشنى مۇۋەپپەقىيەتلىك تاماملىغان ۋاقتى. "
+"ۋاقىت چوقۇم ISO 8601 پىچىمىدا بولۇشى كېرەك."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:12
+msgid "The last time Déjà Dup restored"
+msgstr "ئەڭ ئاخىرقى قېتىم Déjà Dup نىڭ ئەسلىگە كەلتۈرگەن ۋاقتى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:13
+msgid ""
+"The last time Déjà Dup successfully completed a restore. This time should be "
+"in ISO 8601 format."
+msgstr ""
+"ئەڭ ئاخىرقى قېتىم Déjà Dup نىڭ ئەسلىگە كەلتۈرۈشنى مۇۋەپپەقىيەتلىك تاماملىغان "
+"ۋاقتى. ۋاقىت چوقۇم ISO 8601 پىچىمىدا بولۇشى كېرەك."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:14
+msgid "Whether to periodically back up"
+msgstr "قەرەللىك زاپاسلىنامدۇ"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:15
+msgid "Whether to automatically back up on a regular schedule."
+msgstr "كۈن تەرتىپ بويىچە ئاپتوماتىك زاپاسلىنامدۇ"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:16
+msgid "How often to periodically back up"
+msgstr "زاپاسلاش قەرەلى قانداق بولىدۇ"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:17
+msgid "The number of days between backups."
+msgstr "زاپاسلاشلار ئارىسىدىكى كۈنلەر سانى."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:18
+msgid ""
+"The first time Déjà Dup checked whether it should prompt about backing up"
+msgstr "تۇنجى قېتىم ئىجرا بولغاندا زاپاسلاش كۆرسەتمىسىنى كۆرسىتەمدۇ"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:19
+msgid ""
+"When a user logs in, the Déjà Dup monitor checks whether it should prompt "
+"about backing up. This is used to increase discoverability for users that "
+"don’t know about backups. This time should be either ‘disabled’ to turn off "
+"this check or in ISO 8601 format."
+msgstr ""
+"ئىشلەتكۈچى كىرگەندە، زاپاس قىلىش كۆرسەتمىسىنى كۆرسىتەمدۇ يوق. بۇ ئارقىلىق "
+"ئىشلەتكۈچى زاپاسلاش ھەققىدە بىر نەرسە بىلمىسىمۇ، ئۇنىڭغا كۆرسەتمە كۆرسىتىش "
+"ئارقىلىق بىلدۈرگىلى بولىدۇ. بۇ ۋاقىتنىڭ قىممىتى ‹ئىناۋەتسىز› ياكى ISO 8601 "
+"پىچىمىدا بولۇشى كېرەك."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:20
+msgid "How long to keep backup files"
+msgstr "زاپاس ھۆججەتلەرنى قانچىلىك ۋاقىت ساقلاپ قويىدۇ"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:21
+msgid ""
+"The number of days to keep backup files on the backup location. A value of 0 "
+"means forever. This is a minimum number of days; the files may be kept "
+"longer."
+msgstr ""
+"زاپاسلانغان ھۆججەتلەرنى ساقلانغان ئورۇندا قانچىلىك ۋاقىت ساقلاپ "
+"تۇرىدىغانلىقىنى بىلدۈرىدىغان كۈن سانى. 0 مەڭگۈ ساقلاشنى بىلدۈرىدۇ. بۇ ئەك "
+"كىچىك كۈن سانىدۇر. ھۆججەتنى ئۇزۇن ساقىت ساقلاشقا بولىدۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:22
+msgid "How long to wait between full backups"
+msgstr ""
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:23
+msgid ""
+"Déjà Dup needs to occasionally make fresh full backups. This is the number "
+"of days to wait between full backups."
+msgstr ""
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:24
+msgid "Type of location to store backup"
+msgstr "زاپاسلاشلارنى ساقلايدىغان ئورۇننىڭ تىپى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:25
+msgid ""
+"The type of backup location. If ‘auto’, a default will be chosen based on "
+"what is available."
+msgstr ""
+"ساقلاش ئورنىنىڭ تىپى. ئەگەر ‘auto’ بولسا، بار بولغان ئورۇن كۆڭۈلدىكى قىلىپ "
+"ئىشلىتىلىدۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:26
+msgid "Amazon S3 Access Key ID"
+msgstr "Amazon S3 نىڭ زىيارەت ئاچقۇچ كىملىكى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:27
+msgid "Your Amazon S3 Access Key Identifier. This acts as your S3 username."
+msgstr ""
+"ئامازون (Amazon) S3 زىيارەت ئاچقۇچىڭىزنىڭ كىملىكى. S3 نىڭ ئىشلەتكۈچى ئاتى "
+"قىلىپ ئىشلىتىلىدۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:28
+msgid "The Amazon S3 bucket name to use"
+msgstr "ئىشلەتمەكچى بولغان ئامازون  S3 چېلىكىنىڭ ئاتى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:29
+msgid ""
+"Which Amazon S3 bucket to store files in. This does not need to exist "
+"already. Only legal hostname strings are valid."
+msgstr ""
+"ئامازون (Amazon) S3 نىڭ قايسى چېلىكىگە ھۆججەتلەرنى ساقلايدۇ. ئالدىن مەۋجۇت "
+"بولۇشى تەلەپ قىلىنمايدۇ. ئۆلچەملىك كومپيۇتېر ئاتىنى ئىپادىلەيدىغان تېكىست "
+"بولسىلا ئىناۋەتلىك."
+
+#. Left this way for historical reasons, should be '$HOSTNAME'.  See convert_s3_folder_to_hostname()
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:31
+msgid "The Amazon S3 folder"
+msgstr "Amazon S3  قىسقۇچى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:32
+msgid ""
+"An optional folder name to store files in. This folder will be created in "
+"the chosen bucket."
+msgstr ""
+"ھۆججەتنى قويىدىغان خالىغان قىسقۇچ ئاتى. بۇ قىسقۇچ تاللانغان چېلەكنىڭ ئىچىگە "
+"قۇرۇلىدۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:33
+msgid "The Rackspace Cloud Files container"
+msgstr "Rackspace Cloud Files قاچىسى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:34
+msgid ""
+"Which Rackspace Cloud Files container to store files in. This does not need "
+"to exist already. Only legal hostname strings are valid."
+msgstr ""
+"Rackspace Cloud Files نىڭ قايسى قاچىسىغا ھۆججەتلەرنى ساقلايدۇ. ئالدىن مەۋجۇت "
+"بولۇشى تەلەپ قىلىنمايدۇ. ئۆلچەملىك كومپيۇتېر ئاتىنى ئىپادىلەيدىغان تېكىست "
+"بولسىلا ئىناۋەتلىك."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:35
+msgid "Your Rackspace username"
+msgstr "Rackspace دىكى ئىشلەتكۈچى ئاتىڭىز"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:36
+msgid "This is your username for the Rackspace Cloud Files service."
+msgstr "بۇ سىزنىڭ Rackspace Cloud Files مۇلازىمىتىدىكى ئىشلەتكۈچى ئاتىڭىز."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:37
+msgid "The Ubuntu One folder"
+msgstr "Ubuntu One قىسقۇچى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:38
+msgid ""
+"The folder name to store files in. If ‘$HOSTNAME’, it will default to a "
+"folder based on the name of the computer."
+msgstr ""
+"ھۆججەتنى قويىدىغان قىسقۇچ ئاتى. ئەگەر ‘$HOSTNAME’ بولسا، كومپيۇتېر ئاتىنى "
+"ئاساس قىلغان قىسقۇچ ئاتى كۆڭۈلدىكى قىلىپ ئىشلىتىلىدۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:39
+#: ../deja-dup/AssistantRestore.vala:221 ../preferences/Preferences.vala:151
+msgid "Backup location"
+msgstr "زاپاسلاش ئورنى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:40
+msgid "Location in which to hold the backup files."
+msgstr "زاپاس ھۆججەتلەرنى قويىدىغان ئورۇن."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:41
+msgid "Folder type"
+msgstr "قىسقۇچ تىپى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:42
+msgid ""
+"Whether the backup location is a mounted external volume or a normal folder."
+msgstr "زاپاسلاش ئورنى ئېگەرلەنگەن سىرتقى دىسكىمۇ ياكى نورمال قىسقۇچمۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:43
+msgid "Relative path under the external volume"
+msgstr "سىرتقى دىسكىدىكى نىسپىي يول"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:44
+msgid ""
+"If the backup location is on an external volume, this is the path of the "
+"folder on that volume."
+msgstr ""
+"ئەگەر زاپاسلاش سىرتقى دىسكىدا بولسا، بۇ قىسقۇچنىڭ دىسكىدىكى يولى بولۇپ "
+"ھېسابلىنىدۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:45
+msgid "Unique ID of the external volume"
+msgstr "سىرتقى دىسكىنىڭ خاس كىملىكى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:46
+msgid ""
+"If the backup location is on an external volume, this is its unique "
+"filesystem identifier."
+msgstr ""
+"ئەگەر زاپاسلاش سىرتقى دىسكىدا بولسا، بۇ ئۇنىڭ خاس ھۆججەت سىستېمىسى كىملىكى "
+"بولۇپ ھېسابلىنىدۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:47
+msgid "Full name of the external volume"
+msgstr "سىرتقى دىسكىنىڭ تولۇق ئاتى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:48
+msgid ""
+"If the backup location is on an external volume, this is the volume’s longer "
+"descriptive name."
+msgstr ""
+"ئەگەر زاپاسلاش سىرتقى دىسكىدا بولسا، بۇ دىسكىنىڭ ئۇزۇن چۈشەندۈرۈش ئاتى بولۇپ "
+" ھېسابلىنىدۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:49
+msgid "Short name of the external volume"
+msgstr "سىرتقى دىسكىنىڭ قىسقا ئاتى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:50
+msgid ""
+"If the backup location is on an external volume, this is the volume’s "
+"shorter name."
+msgstr ""
+"ئەگەر زاپاسلاش سىرتقى دىسكىدا بولسا، بۇ دىسكىنىڭ ئۇزۇن چۈشەندۈرۈش ئاتى بولۇپ "
+" ھېسابلىنىدۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:51
+msgid "Icon of the external volume"
+msgstr "سىرتقى دىسكىنىڭ سىنبەلگىسى"
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:52
+msgid ""
+"If the backup location is on an external volume, this is the volume’s icon."
+msgstr ""
+"ئەگەر زاپاسلاش سىرتقى دىسكىدا بولسا، بۇ دىسكىنىڭ سىنبەلگىسى بولۇپ  "
+"ھېسابلىنىدۇ."
+
+#: ../data/org.gnome.DejaDup.gschema.xml.in.h:53
+msgid "Obsolete"
+msgstr "كېرەكسىز"
+
+#: ../data/ui/restore-missing.ui.h:1
+msgid "Folder"
+msgstr "قىسقۇچ"
+
+#: ../data/ui/restore-missing.ui.h:2 ../deja-dup/AssistantOperation.vala:175
+msgid "Scanning…"
+msgstr "تەكشۈرۈۋاتىدۇ…"
+
+#: ../nautilus/NautilusExtension.c:174
+msgid "Restore Missing Files…"
+msgstr "يوقالغان ھۆججەتلەرنى ئەسلىگە كەلتۈرۈش…"
+
+#: ../nautilus/NautilusExtension.c:175
+msgid "Restore deleted files from backup"
+msgstr "ئۆچۈرۈلگەن ھۆججەتلەرنى زاپاستىن ئەسلىگە كەلتۈرۈش"
+
+#: ../nautilus/NautilusExtension.c:217
+msgid "Revert to Previous Version…"
+msgid_plural "Revert to Previous Versions…"
+msgstr[0] "ئالدىنقى نەشرلىرىگە ئەسلىگە كەلتۈرۈش…"
+
+#: ../nautilus/NautilusExtension.c:221
+msgid "Restore file from backup"
+msgid_plural "Restore files from backup"
+msgstr[0] "ھۆججەتلەرنى زاپاستىن ئەسلىگە كەلتۈرۈش"
+
+#. Translators: %2$s is the name of a removable drive, %1$s is a folder
+#. on that removable drive.
+#: ../common/BackendFile.vala:135 ../common/CommonUtils.vala:434
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%2$s ئۈستىدىكى %1$s"
+
+#: ../common/BackendFile.vala:168
+#, c-format
+msgid "Backup will begin when %s becomes connected."
+msgstr "%s باغلانغاندا زاپاسلاش باشلىنىدۇ."
+
+#: ../common/BackendFile.vala:175 ../common/BackendRackspace.vala:49
+#: ../common/BackendS3.vala:59 ../common/BackendU1.vala:150
+msgid "Backup will begin when a network connection becomes available."
+msgstr "تور باغلىنىشى بار بولغاندا زاپاسلاش باشلىنىدۇ."
+
+#: ../common/BackendFile.vala:384 ../common/BackendFile.vala:448
+msgid "Backup location not available"
+msgstr "زاپاسلاش ئورنى يوق"
+
+#: ../common/BackendFile.vala:385
+msgid "Waiting for a network connection…"
+msgstr "تورغا باغلىنىشنى كۈتۈۋاتىدۇ…"
+
+#: ../common/BackendFile.vala:448
+#, c-format
+msgid "Waiting for ‘%s’ to become connected…"
+msgstr "‹%s› غا باغلىنىشنى كۈتۈۋاتىدۇ…"
+
+#: ../common/BackendRackspace.vala:69 ../widgets/ConfigLocation.vala:194
+msgid "Rackspace Cloud Files"
+msgstr "Rackspace Cloud Files"
+
+#. Translators: %s is a folder.
+#: ../common/BackendRackspace.vala:72
+#, c-format
+msgid "%s on Rackspace Cloud Files"
+msgstr "%s بولسا Rackspace Cloud Files نىڭدا"
+
+#: ../common/BackendRackspace.vala:119 ../common/BackendS3.vala:172
+msgid "Permission denied"
+msgstr "ھوقۇقىڭىز يەتمىدى"
+
+#: ../common/BackendRackspace.vala:140
+#, c-format
+msgid ""
+"You can sign up for a Rackspace Cloud Files account <a "
+"href=\"%s\">online</a>."
+msgstr ""
+"سىز Rackspace Cloud Files قا <a href=\"%s\">بۇ ئارقىلىق</a> خەتلىتەلەيسىز."
+
+#: ../common/BackendRackspace.vala:141
+msgid "Connect to Rackspace Cloud Files"
+msgstr "Rackspace Cloud Files غا باغلىنىش"
+
+#: ../common/BackendRackspace.vala:142
+msgid "_API access key"
+msgstr "API  زىيارەت ئاچقۇچى(_A)"
+
+#: ../common/BackendRackspace.vala:143
+msgid "S_how API access key"
+msgstr "API  زىيارەت ئاچقۇچىنى كۆرسەت(_H)"
+
+#: ../common/BackendRackspace.vala:144
+msgid "_Remember API access key"
+msgstr "API  زىيارەت ئاچقۇچىنى ئەستە تۇت(_R)"
+
+#: ../common/BackendS3.vala:122 ../widgets/ConfigLocation.vala:176
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#. Translators: %s is a folder.
+#: ../common/BackendS3.vala:125
+#, c-format
+msgid "%s on Amazon S3"
+msgstr "Amazon S3 دىكى %s"
+
+#: ../common/BackendS3.vala:193
+#, c-format
+msgid "You can sign up for an Amazon S3 account <a href=\"%s\">online</a>."
+msgstr ""
+"سىز ئامازون(Amazon) S3 ھېساباتىغا <a href=\"%s\">بۇ ئارقىلىق</a> "
+"خەتلىتەلەيسىز."
+
+#: ../common/BackendS3.vala:194
+msgid "Connect to Amazon S3"
+msgstr "Amazon S3 كە باغلىنىش"
+
+#: ../common/BackendS3.vala:195
+msgid "_Access key ID"
+msgstr "زىيارەت ئاچقۇچى كىملىكى(_A)"
+
+#: ../common/BackendS3.vala:196
+msgid "_Secret access key"
+msgstr "مەخپىي زىيارەت ئاچقۇچى"
+
+#: ../common/BackendS3.vala:197
+msgid "S_how secret access key"
+msgstr "مەخپىي زىيارەت ئاچقۇچىنى كۆرسەت(_H)"
+
+#: ../common/BackendS3.vala:198
+msgid "_Remember secret access key"
+msgstr "مەخپىي زىيارەت ئاچقۇچىنى ئەستە تۇت(_R)"
+
+#: ../common/BackendU1.vala:166 ../widgets/ConfigLocation.vala:186
+msgid "Ubuntu One"
+msgstr "Ubuntu One"
+
+#. Translators: %s is a folder.
+#: ../common/BackendU1.vala:169
+#, c-format
+msgid "%s on Ubuntu One"
+msgstr "Ubuntu One دىكى %s"
+
+#: ../common/BackendU1.vala:236
+msgid "Connect to Ubuntu One"
+msgstr "Ubuntu One غا باغلىنىش"
+
+#: ../common/BackendU1.vala:237
+msgid "Sign into Ubuntu One…"
+msgstr "Ubuntu One غا كىرىش"
+
+#: ../common/CommonUtils.vala:354
+#, c-format
+msgid "Could not find backup tool in %s.  Your installation is incomplete."
+msgstr ""
+
+#: ../common/CommonUtils.vala:356
+msgid "Could not load backup tool.  Your installation is incomplete."
+msgstr ""
+
+#: ../common/CommonUtils.vala:362
+msgid "Backup tool is broken.  Your installation is incomplete."
+msgstr ""
+
+#: ../common/CommonUtils.vala:384
+msgid "Could not start backup tool"
+msgstr ""
+
+#. Translators: this is the home folder and %s is the user's username
+#: ../common/CommonUtils.vala:485
+#, c-format
+msgid "Home (%s)"
+msgstr "ماكان (%s)"
+
+#. Translators: this is the home folder
+#: ../common/CommonUtils.vala:490
+msgid "Home"
+msgstr "ماكان"
+
+#. Translators: this is the trash folder
+#: ../common/CommonUtils.vala:495
+msgid "Trash"
+msgstr "ئەخلەتخانا"
+
+#: ../common/OperationRestore.vala:51
+msgid "Restoring files…"
+msgstr "ھۆججەتلەرنى ئەسلىگە كەلتۈرۈۋاتىدۇ…"
+
+#: ../common/Operation.vala:60
+msgid "Backing up…"
+msgstr "زاپاسلاۋاتىدۇ…"
+
+#: ../common/Operation.vala:62 ../deja-dup/AssistantRestore.vala:484
+msgid "Restoring…"
+msgstr "ئەسلىگە كەلتۈرۈۋاتىدۇ…"
+
+#: ../common/Operation.vala:64
+msgid "Checking for backups…"
+msgstr "زاپاسلاشلارنى تەكشۈرۈۋاتىدۇ…"
+
+#: ../common/Operation.vala:66
+msgid "Listing files…"
+msgstr "ھۆججەتلەرنى كۆزىتىۋاتىدۇ…"
+
+#: ../common/Operation.vala:68 ../common/Operation.vala:100
+#: ../tools/duplicity/DuplicityJob.vala:386
+#: ../tools/duplicity/DuplicityJob.vala:393
+#: ../tools/duplicity/DuplicityJob.vala:412
+#: ../tools/duplicity/DuplicityJob.vala:417
+msgid "Preparing…"
+msgstr "تەييارلىنىۋاتىدۇ…"
+
+#: ../common/Operation.vala:237
+msgid "Another backup operation is already running"
+msgstr "باشقا بىر زاپاسلاش مەشغۇلاتى ئىجرا بۆلۈۋېتىپتۇ"
+
+#: ../deja-dup/AssistantBackup.vala:31
+msgctxt "back up is verb"
+msgid "Back Up"
+msgstr "زاپاسلاش"
+
+#: ../deja-dup/AssistantBackup.vala:32
+msgctxt "back up is verb"
+msgid "_Back Up"
+msgstr "زاپاسلا(_B)"
+
+#: ../deja-dup/AssistantBackup.vala:49
+msgid "Creating the first backup.  This may take a while."
+msgstr "تۇنجى زاپاسلاشنى قۇرۇۋاتىدۇ. ئازراق ۋاقىت كېتىدۇ."
+
+#: ../deja-dup/AssistantBackup.vala:50
+msgid ""
+"Creating a fresh backup to protect against backup corruption.  This will "
+"take longer than normal."
+msgstr ""
+"زاپاسلاشنىڭ بۇزۇپ كېتىشىنىڭ ئالدىنى ئېلىش ئۈچۈن يېڭىدىن زاپاسلايدۇ. بۇنىڭغا "
+"جىقراق ۋاقىت كېتىدۇ."
+
+#. Translators:  This is the phrase 'Backing up' in the larger phrase
+#. "Backing up '%s'".  %s is a filename.
+#: ../deja-dup/AssistantBackup.vala:80
+msgid "Backing up:"
+msgstr "زاپاسلاش:"
+
+#: ../deja-dup/AssistantBackup.vala:89
+msgid "Backup Failed"
+msgstr "زاپاسلاش مەغلۇپ بولدى"
+
+#: ../deja-dup/AssistantBackup.vala:92
+msgid "Backup Finished"
+msgstr "زاپاسلاش تامام"
+
+#: ../deja-dup/AssistantBackup.vala:100
+msgid "Backing Up…"
+msgstr "زاپاسلاۋاتىدۇ…"
+
+#: ../deja-dup/AssistantOperation.vala:174
+msgid "Scanning:"
+msgstr "تەكشۈرۈۋاتىدۇ:"
+
+#: ../deja-dup/AssistantOperation.vala:256
+msgid "_Details"
+msgstr "تەپسىلاتلار(_D)"
+
+#: ../deja-dup/AssistantOperation.vala:304
+msgid "_Allow restoring without a password"
+msgstr "ئىمسىز ئەسلىگە كەلتۈرۈشكە ئىجازەت(_A)"
+
+#: ../deja-dup/AssistantOperation.vala:310
+msgid "_Password-protect your backup"
+msgstr "زاپاسنى ئىم بىلەن قوغدا(_P)"
+
+#: ../deja-dup/AssistantOperation.vala:324
+#, c-format
+msgid ""
+"You will need your password to restore your files. You might want to write "
+"it down."
+msgstr ""
+"ئەسلىگە كەلتۈرۈش ئۈچۈن ئىم كېرەك بولىدۇ، سىز ئۇنى بىر يەرگە يېزىۋېلىڭ."
+
+#: ../deja-dup/AssistantOperation.vala:339
+msgid "E_ncryption password"
+msgstr "شىفىرلاش ئىمى(_N)"
+
+#: ../deja-dup/AssistantOperation.vala:356
+msgid "Confir_m password"
+msgstr "ئىم جەزملە(_M)"
+
+#: ../deja-dup/AssistantOperation.vala:369
+msgid "_Show password"
+msgstr "ئىم كۆرسەت(_S)"
+
+#: ../deja-dup/AssistantOperation.vala:378
+#: ../deja-dup/MountOperationAssistant.vala:40
+msgid "_Remember password"
+msgstr "ئىمنى ئەستە تۇت(_R)"
+
+#: ../deja-dup/AssistantOperation.vala:447
+msgid "Summary"
+msgstr "ئۈزۈندى"
+
+#: ../deja-dup/AssistantOperation.vala:537
+#: ../tools/duplicity/DuplicityJob.vala:694
+#: ../tools/duplicity/DuplicityJob.vala:1076
+msgid "Failed with an unknown error."
+msgstr "نامەلۇم خاتالىق چىقىپ مەغلۇپ بولدى."
+
+#: ../deja-dup/AssistantOperation.vala:730
+msgid "Require Password?"
+msgstr "ئىم زۆرۈرمۇ؟"
+
+#: ../deja-dup/AssistantOperation.vala:732
+msgid "Encryption Password Needed"
+msgstr "شىفىرلاش ئىمىنى زۆرۈر"
+
+#: ../deja-dup/AssistantOperation.vala:778
+msgid "Backup encryption password"
+msgstr "شىفىرلاش ئىمىنى زاپاسلاش"
+
+#: ../deja-dup/AssistantRestore.vala:68
+msgid "Restore"
+msgstr "ئەسلىگە كەلتۈرۈش"
+
+#: ../deja-dup/AssistantRestore.vala:69
+msgid "_Restore"
+msgstr "ئەسلىگە كەلتۈر(_R)"
+
+#: ../deja-dup/AssistantRestore.vala:91 ../preferences/Preferences.vala:262
+msgid "_Backup location"
+msgstr "ئەسلىگە كەلتۈرۈش ئورنى(_B)"
+
+#: ../deja-dup/AssistantRestore.vala:124
+msgid "Restore From Where?"
+msgstr "قەيەردىن ئەسلىگە كەلتۈرىدۇ؟"
+
+#: ../deja-dup/AssistantRestore.vala:146
+msgid "_Date"
+msgstr "چېسلا(_D)"
+
+#: ../deja-dup/AssistantRestore.vala:169
+msgid "Restore files to _original locations"
+msgstr "ئەسلى ئورنىغا ئەسلىگە كەلتۈر(_O)"
+
+#: ../deja-dup/AssistantRestore.vala:174
+msgid "Restore to _specific folder"
+msgstr "كۆرسىتىلگەن قىسقۇچقا ئەسلىگە كەلتۈر(_S)"
+
+#: ../deja-dup/AssistantRestore.vala:184
+msgid "Choose destination for restored files"
+msgstr "ئەسلىگە كەلتۈرىدىغان ھۆججەتلەرنىڭ نىشانىنى تاللاڭ"
+
+#: ../deja-dup/AssistantRestore.vala:188
+msgid "Restore _folder"
+msgstr "قىسقۇچنى ئەسلىگە كەلتۈر(_F)"
+
+#: ../deja-dup/AssistantRestore.vala:229
+msgid "Restore date"
+msgstr "چېسلانى ئەسلىگە كەلتۈرۈش"
+
+#: ../deja-dup/AssistantRestore.vala:237
+msgid "Restore folder"
+msgstr "قىسقۇچنى ئەسلىگە كەلتۈرۈش"
+
+#: ../deja-dup/AssistantRestore.vala:263
+msgid "Checking for Backups…"
+msgstr "زاپاسلاشلارنى تەكشۈرۈۋاتىدۇ…"
+
+#: ../deja-dup/AssistantRestore.vala:271
+msgid "Restore From When?"
+msgstr "قەيەردىن قاچان ئەسلىگە كەلتۈرىدۇ؟"
+
+#: ../deja-dup/AssistantRestore.vala:279
+msgid "Restore to Where?"
+msgstr "قەيەرگە ئەسلىگە كەلتۈرىدۇ؟"
+
+#. Translators:  This is the word 'Restoring' in the phrase
+#. "Restoring '%s'".  %s is a filename.
+#: ../deja-dup/AssistantRestore.vala:306
+msgid "Restoring:"
+msgstr "ئەسلىگە كەلتۈرۈش:"
+
+#. Translators: %x is the current date, %X is the current time.
+#. This will be in a list with other strings that just have %x (the
+#. current date).  So make sure if you change this, it still makes
+#. sense in that context.
+#: ../deja-dup/AssistantRestore.vala:348
+#, c-format
+msgid "%x %X"
+msgstr "%x %X"
+
+#: ../deja-dup/AssistantRestore.vala:361
+msgid "No backups to restore"
+msgstr "ئەسلىگە كەلتۈرىدىغان زاپاسلاشلار يوق"
+
+#: ../deja-dup/AssistantRestore.vala:437
+msgid "Original location"
+msgstr "ئەسلى ئورنى"
+
+#: ../deja-dup/AssistantRestore.vala:448
+msgid "File to restore"
+msgid_plural "Files to restore"
+msgstr[0] "ئەسلىگە كەلتۈرىدىغان ھۆججەتلەر"
+
+#: ../deja-dup/AssistantRestore.vala:469
+msgid "Restore Failed"
+msgstr "ئەسلىگە كەلتۈرۈش مەغلۇپ بولدى"
+
+#: ../deja-dup/AssistantRestore.vala:471
+msgid "Restore Finished"
+msgstr "ئەسلىگە كەلتۈرۈش تامام"
+
+#: ../deja-dup/AssistantRestore.vala:474
+msgid "Your files were successfully restored."
+msgstr "ھۆججەت مۇۋەپپەقىيەتلىك ئەسلىگە كەلتۈرۈلدى."
+
+#: ../deja-dup/AssistantRestore.vala:477
+msgid "Your file was successfully restored."
+msgid_plural "Your files were successfully restored."
+msgstr[0] "ھۆججەت مۇۋەپپەقىيەتلىك ئەسلىگە كەلتۈرۈلدى."
+
+#: ../deja-dup/AssistantRestoreMissing.vala:199
+msgid "File"
+msgstr "ھۆججەت"
+
+#: ../deja-dup/AssistantRestoreMissing.vala:200
+msgid "Last seen"
+msgstr "ئەڭ ئاخىرقى كۆرۈنگەن ۋاقتى"
+
+#: ../deja-dup/AssistantRestoreMissing.vala:215
+msgid "Restore which Files?"
+msgstr "قايسى ھۆججەتنى ئەسلىگە كەلتۈرىدۇ؟"
+
+#: ../deja-dup/AssistantRestoreMissing.vala:346
+msgid "Scanning for files from up to a day ago…"
+msgstr "بىر كۈن بولغان ھۆججەتلەرنى تەكشۈرۈۋاتىدۇ"
+
+#: ../deja-dup/AssistantRestoreMissing.vala:349
+msgid "Scanning for files from up to a week ago…"
+msgstr "بىر ھەپتە بولغان ھۆججەتلەرنى تەكشۈرۈۋاتىدۇ"
+
+#: ../deja-dup/AssistantRestoreMissing.vala:352
+msgid "Scanning for files from up to a month ago…"
+msgstr "بىر ئاي بولغان ھۆججەتلەرنى تەكشۈرۈۋاتىدۇ…"
+
+#: ../deja-dup/AssistantRestoreMissing.vala:357
+#, c-format
+msgid "Scanning for files from about a month ago…"
+msgid_plural "Scanning for files from about %d months ago…"
+msgstr[0] "%d ئاي ئىلگىرىكى ھۆججەتلەرنى تەكشۈرۈۋاتىدۇ…"
+
+#: ../deja-dup/AssistantRestoreMissing.vala:364
+#, c-format
+msgid "Scanning for files from about a year ago…"
+msgid_plural "Scanning for files from about %d years ago…"
+msgstr[0] "%d يىل ئىلگىرىكى ھۆججەتلەرنى تەكشۈرۈۋاتىدۇ…"
+
+#: ../deja-dup/AssistantRestoreMissing.vala:454
+msgid "Scanning finished"
+msgstr "تەكشۈرۈش تامام"
+
+#: ../deja-dup/Assistant.vala:309
+msgid "Co_ntinue"
+msgstr "داۋاملاشتۇر(_N)"
+
+#: ../deja-dup/Assistant.vala:347 ../deja-dup/StatusIcon.vala:93
+msgid "_Resume Later"
+msgstr "كېيىن قايتا داۋاملاشتۇر(_R)"
+
+#: ../deja-dup/main.vala:34 ../monitor/monitor.vala:36
+#: ../preferences/preferences-main.vala:26
+msgid "Show version"
+msgstr "نەشرىنى كۆرسەت"
+
+#: ../deja-dup/main.vala:35
+msgid "Restore given files"
+msgstr "بېرىلگەن ھۆججەتلەرنى ئەسلىگە كەلتۈرۈش"
+
+#: ../deja-dup/main.vala:36
+msgid "Immediately start a backup"
+msgstr "زاپاسلاشنى ھازىرلا باشلاش"
+
+#: ../deja-dup/main.vala:38
+msgid "Restore deleted files"
+msgstr "ئۆچۈرۈلگەن ھۆججەتلەرنى ئەسلىگە كەلتۈرۈش"
+
+#: ../deja-dup/main.vala:55
+msgid "No directory provided"
+msgstr "مۇندەرىجە تەمىنلەنمىگەن"
+
+#: ../deja-dup/main.vala:60
+msgid "Only one directory can be shown at once"
+msgstr "بىرلا ۋاقىتتا بىرلا ھۆججەتنى كۆرسەتكىلى بولىدۇ"
+
+#: ../deja-dup/main.vala:81
+msgid "[FILES…]"
+msgstr "[FILES…]"
+
+#: ../deja-dup/main.vala:82
+msgid "DIRECTORY"
+msgstr "DIRECTORY"
+
+#. Translators: Wrap this to 80 characters per line if you can, as I have for English
+#: ../deja-dup/main.vala:86
+msgid ""
+"Déjà Dup is a simple backup tool.  It hides the complexity of backing up\n"
+"the Right Way (encrypted, off-site, and regular) and uses duplicity as\n"
+"the backend."
+msgstr ""
+"Déjà Dup - ئاددىي زاپاسلاش قورالى. ئۇ مۇرەككەپ بولغان زاپاسلاشنى "
+"ئاددىيلاشتۇرىدۇ، ھەم زاپاسلاشنى ئارقا ئۇچ شەكىلدە ئېلىپ بارىدۇ."
+
+#: ../deja-dup/main.vala:137
+msgid "Directory does not exists"
+msgstr "مۇندەرىجە مەۋجۇت ئەمەس"
+
+#: ../deja-dup/main.vala:141
+msgid "You must provide a directory, not a file"
+msgstr "ھۆججەت ئەمەس مۇندەرىجە كۆرسىتىپ بېرىشىڭىز كېرەك"
+
+#: ../deja-dup/main.vala:153
+msgid "You must specify a mode"
+msgstr "بىرەر ئۇسۇلنى كۆرسىتىپ بېرىشىڭىز كېرەك"
+
+#: ../deja-dup/MountOperationAssistant.vala:36
+msgid "Connect to Server"
+msgstr "مۇلازىمېتىرغا باغلىنىش"
+
+#: ../deja-dup/MountOperationAssistant.vala:37
+#: ../widgets/ConfigLocationDAV.vala:49 ../widgets/ConfigLocationFTP.vala:45
+#: ../widgets/ConfigLocationRackspace.vala:31
+#: ../widgets/ConfigLocationSMB.vala:37 ../widgets/ConfigLocationSSH.vala:40
+msgid "_Username"
+msgstr "ئىشلەتكۈچى ئاتى(_U)"
+
+#: ../deja-dup/MountOperationAssistant.vala:38
+msgid "_Password"
+msgstr "ئىم(_P)"
+
+#: ../deja-dup/MountOperationAssistant.vala:39
+msgid "S_how password"
+msgstr "ئىمنى كۆرسەت(_H)"
+
+#: ../deja-dup/MountOperationAssistant.vala:80
+msgid "Location not available"
+msgstr "ئورۇن يوق"
+
+#: ../deja-dup/MountOperationAssistant.vala:166
+msgid "Connect _anonymously"
+msgstr "ئاتسىز باغلىنىش(_A)"
+
+#: ../deja-dup/MountOperationAssistant.vala:170
+msgid "Connect as u_ser"
+msgstr "ئىشلەتكۈچى سۈپىتىدە باغلان(_S)"
+
+#. Translators: this is a Windows networking domain
+#: ../deja-dup/MountOperationAssistant.vala:213
+msgid "_Domain"
+msgstr "دائىرە(_D)"
+
+#: ../deja-dup/Prompt.vala:37
+msgid "Keep your files safe by backing up regularly"
+msgstr "ھۆججەتلەرنى قەرەللىك زاپاسلاش ئارقىلىق قوغداڭ"
+
+#: ../deja-dup/Prompt.vala:42
+msgid ""
+"Important documents, data, and settings can be protected by storing them in "
+"a backup. In the case of a disaster, you would be able to recover them from "
+"that backup."
+msgstr ""
+"زاپاسلاش ئارقىلىق مۇھىم ھۆججەت، سانلىق-مەلۇمات ۋە تەڭشەكلەرنى قوغداپ قالغىلى "
+"بولىدۇ. ئاپەت بولغاندا ئۇلارنى ئەسلىگە كەلتۈرەلەيسىز."
+
+#: ../deja-dup/Prompt.vala:48
+msgid "_Don't Show Again"
+msgstr "قايتا كۆرسەتمە(_D)"
+
+#: ../deja-dup/Prompt.vala:50
+msgid "Don't Show Again"
+msgstr "قايتا كۆرسەتمىسۇن"
+
+#: ../deja-dup/Prompt.vala:56
+msgid "_Open Backup Settings"
+msgstr "زاپاسلاش تەڭشىكىنى ئاچ(_O)"
+
+#: ../deja-dup/Prompt.vala:58
+msgid "Open Backup Settings"
+msgstr "زاپاسلاش تەڭشىكىنى ئېچىش"
+
+#: ../deja-dup/StatusIcon.vala:94
+msgid "_Skip Backup"
+msgstr "زاپاسلاشنى ئۆتۈپ كەت(_S)"
+
+#: ../deja-dup/StatusIcon.vala:125
+msgid "Backup completed"
+msgstr "زاپاسلاش تامام"
+
+#: ../deja-dup/StatusIcon.vala:129
+msgid "Backup finished"
+msgstr "زاپاسلاش تامام"
+
+#: ../deja-dup/StatusIcon.vala:130
+msgid ""
+"Not all files were successfully backed up.  See dialog for more details."
+msgstr ""
+"ھەممە ھۆججەت مۇۋەپپەقىيەتلىك زاپاسلانمىدى. تەپسىلاتلىرى ئۈچۈن سۆزلەشكۈگە "
+"قاراڭ."
+
+#: ../deja-dup/StatusIcon.vala:232
+msgid "Starting scheduled backup"
+msgstr "پىلانغا ئېلىنغان زاپاسلاشنى باشلاش"
+
+#: ../deja-dup/StatusIcon.vala:234
+msgid "Show Progress"
+msgstr "جەريانىنى كۆرسىتىش"
+
+#: ../deja-dup/StatusIcon.vala:272
+#, c-format
+msgid "%.1f%% complete"
+msgstr "%.1f%%  تاماملاندى"
+
+#: ../deja-dup/StatusIcon.vala:285
+msgid "Show _Progress"
+msgstr "جەريانىنى كۆرسىتىش(_P)"
+
+#: ../monitor/monitor.vala:156
+msgid "Scheduled backup delayed"
+msgstr "پىلانغا ئېلىنغان زاپاسلاش كېچىكتۈرۈلدى"
+
+#: ../preferences/Preferences.vala:45
+#, c-format
+msgid "I want to _restore files from a previous backup…"
+msgstr "بۇرۇنقى زاپاسلاشتىن ھۆججەتلەرنى ئەسلىگە كەلتۈرىمەن(_R)…"
+
+#: ../preferences/Preferences.vala:64
+#, c-format
+msgid "Just show my backup _settings"
+msgstr "پەقەت زاپاسلاش تەڭشىكىنىلا كۆرسەت(_S)"
+
+#: ../preferences/Preferences.vala:134
+msgid "Automatic _backups"
+msgstr "ئاپتوماتىك زاپاسلاش"
+
+#: ../preferences/Preferences.vala:181
+msgid "Most recent backup"
+msgstr "ئەڭ يېقىنقى زاپاسلاش"
+
+#: ../preferences/Preferences.vala:190
+msgid "Next automatic backup"
+msgstr "كېيىنكى ئاپتوماتىك زاپاسلاش"
+
+#: ../preferences/Preferences.vala:224
+msgid "_Restore…"
+msgstr "ئەسلىگە كەلتۈر(_R)…"
+
+#: ../preferences/Preferences.vala:230
+msgid "Back Up _Now"
+msgstr "ھازىرلا زاپاس قىل(_N)"
+
+#: ../preferences/Preferences.vala:252
+msgid "Overview"
+msgstr "قىسقىچە بايان"
+
+#. Translators: storage as in "where to store the backup"
+#: ../preferences/Preferences.vala:284
+msgid "Storage"
+msgstr "ساقلاش"
+
+#: ../preferences/Preferences.vala:305
+msgid "Folders to _back up"
+msgstr "زاپاس قىلىنىدىغان قىسقۇچلار(_B)"
+
+#: ../preferences/Preferences.vala:315
+msgid "Folders to _ignore"
+msgstr "زاپاس قىلىنمايدىغان قىسقۇچلار(_I)"
+
+#: ../preferences/Preferences.vala:324
+msgid "Folders"
+msgstr "قىسقۇچلار"
+
+#: ../preferences/Preferences.vala:335
+msgid "How _often to back up"
+msgstr "زاپاسلاش دەۋرى(_O)"
+
+#: ../preferences/Preferences.vala:346
+#, c-format
+msgid "_Keep backups"
+msgstr "زاپاسلارنى ساقلاپ قوي(_K)"
+
+#: ../preferences/Preferences.vala:361
+msgid "Schedule"
+msgstr "كۈنتەرتىپ"
+
+#: ../preferences/Preferences.vala:365
+msgid "Categories"
+msgstr "كاتېگورىيە"
+
+#: ../tools/duplicity/DuplicityJob.vala:89
+#: ../tools/duplicity/DuplicityJob.vala:173
+msgid "Paused (no network)"
+msgstr "ۋاقىت توختىغان(تور باغلىنىشى يوق)"
+
+#. Was not even a file path (maybe something goofy like computer://)
+#: ../tools/duplicity/DuplicityJob.vala:444
+#, c-format
+msgid "Could not restore ‘%s’: Not a valid file location"
+msgstr "‹%s› نى ئەسلىگە كەلتۈرگىلى بولمىدى: ھۆججەت ئورنى ئىناۋەتلىك ئەمەس"
+
+#. Tiny backup location.  Suggest they get a larger one.
+#: ../tools/duplicity/DuplicityJob.vala:510
+msgid "Backup location is too small.  Try using one with more space."
+msgstr "زاپاسلاش ئورنى بەك كىچىك. جىقراق بوشلۇق بار يەرنى سىناپ كۆرۈڭ."
+
+#: ../tools/duplicity/DuplicityJob.vala:532
+msgid "Backup location does not have enough free space."
+msgstr "زاپاسلاش ئورنىدا يېتەرلىك بىكار بوشلۇق يوق."
+
+#: ../tools/duplicity/DuplicityJob.vala:551
+#: ../tools/duplicity/DuplicityJob.vala:565
+msgid "Cleaning up…"
+msgstr "تازىلاۋاتىدۇ…"
+
+#. OK, we succeeded yay!  But some files didn't make it into the backup
+#. because we couldn't read them.  So tell the user so they don't think
+#. everything is hunky dory.
+#: ../tools/duplicity/DuplicityJob.vala:661
+msgid ""
+"Could not back up the following files.  Please make sure you are able to "
+"open them."
+msgstr ""
+"تۆۋەندىكى ھۆججەتلەرنى زاپاسلىغىلى بولمىدى. ئۇلارنى ئاچالامسىز تەكشۈرۈپ بېقىڭ."
+
+#. OK, we succeeded yay!  But some files didn't actually restore
+#. because we couldn't write to them.  So tell the user so they
+#. don't think everything is hunky dory.
+#: ../tools/duplicity/DuplicityJob.vala:677
+msgid ""
+"Could not restore the following files.  Please make sure you are able to "
+"write to them."
+msgstr ""
+"تۆۋەندىكى ھۆججەتلەرنى ئەسلىگە كەلتۈرگىلى بولمىدى. ئۇلارغا يېزىش ھوقۇقىڭىز "
+"بارمۇ تەكشۈرۈڭ."
+
+#: ../tools/duplicity/DuplicityJob.vala:924
+#, c-format
+msgid "Could not restore ‘%s’: File not found in backup"
+msgstr ""
+"‹%s› نى ئەسلىگە كەلتۈرگىلى بولمىدى: ھۆججەتنى زاپاستىن تاپقىلى بولمىدى"
+
+#. notify upper layers, if they want to do anything
+#. Duplicity tried to ask the user what the encryption password is.
+#. notify upper layers, if they want to do anything
+#: ../tools/duplicity/DuplicityJob.vala:930
+#: ../tools/duplicity/DuplicityJob.vala:1028
+#: ../tools/duplicity/DuplicityJob.vala:1032
+msgid "Bad encryption password."
+msgstr "بولمىغۇر شىفىرلاش ئىمى."
+
+#: ../tools/duplicity/DuplicityJob.vala:935
+msgid "Computer name changed"
+msgstr "كومپيۇتېر ئاتى ئۆزگەردى"
+
+#: ../tools/duplicity/DuplicityJob.vala:935
+#, c-format
+msgid ""
+"The existing backup is of a computer named %s, but the current computer’s "
+"name is %s.  If this is unexpected, you should back up to a different "
+"location."
+msgstr ""
+"بۇ ئاتى %s بولغان كومپيۇتېرنىڭ زاپاسلىرى ئىكەن، ھازىرقى كومپيۇتېرنىڭ ئاتى %s "
+" ئىكەن. ئەگەر بۇ ئويلىمىغان ئىش بولسا، سىز باشقا بىر جايغا زاپاس قىلىشىڭىز "
+"كېرەك."
+
+#: ../tools/duplicity/DuplicityJob.vala:970
+#, c-format
+msgid "Permission denied when trying to create ‘%s’."
+msgstr "‹%s› نى قۇرۇۋاتقاندا ئىمتىيازىڭىز رەت قىلىندى."
+
+#. assume error is on backend side
+#: ../tools/duplicity/DuplicityJob.vala:974
+#: ../tools/duplicity/DuplicityJob.vala:978
+#, c-format
+msgid "Permission denied when trying to read ‘%s’."
+msgstr "‹%s› نى ئوقۇۋاتقاندا ئىمتىيازىڭىز رەت قىلىندى."
+
+#: ../tools/duplicity/DuplicityJob.vala:982
+#, c-format
+msgid "Permission denied when trying to delete ‘%s’."
+msgstr "‹%s› نى ئۆچۈرۈۋاتقاندا ئىمتىيازىڭىز رەت قىلىندى."
+
+#: ../tools/duplicity/DuplicityJob.vala:989
+#, c-format
+msgid "Backup location ‘%s’ does not exist."
+msgstr "زاپاسلاش ئورنى ‹%s› مەۋجۇت ئەمەس."
+
+#: ../tools/duplicity/DuplicityJob.vala:995
+#: ../tools/duplicity/DuplicityJob.vala:1047
+msgid "No space left."
+msgstr "بوشلۇق قالماپتۇ."
+
+#: ../tools/duplicity/DuplicityJob.vala:1009
+msgid "Invalid ID."
+msgstr "ئىناۋەتسىز كىملىك."
+
+#: ../tools/duplicity/DuplicityJob.vala:1011
+msgid "Invalid secret key."
+msgstr "ئىناۋەتسىز مەخپىي ئاچقۇچ."
+
+#: ../tools/duplicity/DuplicityJob.vala:1013
+msgid "Your Amazon Web Services account is not signed up for the S3 service."
+msgstr ""
+"ئامازون Web مۇلازىمىتىدىكى ھېساباتىڭىز S3 مۇلازىمىتىگە خەتلىتىلمەپتۇ."
+
+#: ../tools/duplicity/DuplicityJob.vala:1022
+msgid "S3 bucket name is not available."
+msgstr "S3 چېلەك ئاتى يوق."
+
+#: ../tools/duplicity/DuplicityJob.vala:1036
+#, c-format
+msgid "Error reading file ‘%s’."
+msgstr "ھۆججەت ‹%s› نى ئوقۇۋاتقاندا خاتالىق كۆرۈلدى."
+
+#: ../tools/duplicity/DuplicityJob.vala:1038
+#, c-format
+msgid "Error writing file ‘%s’."
+msgstr "ھۆججەت ‹%s› نى يېزىۋاتقاندا خاتالىق كۆرۈلدى."
+
+#: ../tools/duplicity/DuplicityJob.vala:1049
+#, c-format
+msgid "No space left in ‘%s’."
+msgstr "‹%s› نىڭدا بوشلۇق قالماپتۇ."
+
+#: ../tools/duplicity/DuplicityJob.vala:1057
+msgid "No backup files found"
+msgstr "زاپاس ھۆججەتلەرنى تېپىلمىدى."
+
+#: ../tools/duplicity/DuplicityJob.vala:1107
+msgid "Uploading…"
+msgstr "يۈكلەۋاتىدۇ…"
+
+#: ../tools/duplicity/DuplicityPlugin.vala:41
+msgid "Could not understand duplicity version."
+msgstr ""
+
+#: ../tools/duplicity/DuplicityPlugin.vala:47
+#, c-format
+msgid "Could not understand duplicity version ‘%s’."
+msgstr ""
+
+#: ../tools/duplicity/DuplicityPlugin.vala:64
+#, c-format
+msgid ""
+"Déjà Dup Backup Tool requires at least version %d.%d.%.2d of duplicity, but "
+"only found version %d.%d.%.2d"
+msgstr ""
+"Déjà Dup زاپاسلاش قورالى %d.%d.%.2d نەشردىكى duplicity نى تەلەپ قىلىدۇ. "
+"بىراق پەقەت %d.%d.%.2d نەشردىكى  duplicity لا بار ئىكەن"
+
+#: ../widgets/ConfigDelete.vala:40
+msgid "At least six months"
+msgstr "ئاز دېگەندە ئالتە ئاي"
+
+#: ../widgets/ConfigDelete.vala:41
+msgid "At least a year"
+msgstr "ئاز دېگەندە بىر يىل"
+
+#: ../widgets/ConfigDelete.vala:42
+msgid "Forever"
+msgstr "مەڭگۈ"
+
+#: ../widgets/ConfigDelete.vala:89
+#, c-format
+msgid "At least %d day"
+msgid_plural "At least %d days"
+msgstr[0] "ئاز دېگەندە %d كۈن"
+
+#: ../widgets/ConfigLabelBackupDate.vala:61
+msgid "Today"
+msgstr "بۈگۈن"
+
+#: ../widgets/ConfigLabelBackupDate.vala:63
+msgid "Yesterday"
+msgstr "تۈنۈگۈن"
+
+#: ../widgets/ConfigLabelBackupDate.vala:65
+msgid "Tomorrow"
+msgstr "ئەتە"
+
+#: ../widgets/ConfigLabelBackupDate.vala:73
+#, c-format
+msgid "%d day from now"
+msgid_plural "%d days from now"
+msgstr[0] "ھازىردىن باشلاپ %d كۈن"
+
+#: ../widgets/ConfigLabelBackupDate.vala:83
+#, c-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d كۈن ئىلگىرى"
+
+#. Translators: This is used in phrases like "Most recent backup: None"
+#: ../widgets/ConfigLabelBackupDate.vala:95
+#: ../widgets/ConfigLabelBackupDate.vala:109
+msgid "None"
+msgstr "يوق"
+
+#: ../widgets/ConfigLabelBool.vala:34
+msgid "Yes"
+msgstr "ھەئە"
+
+#: ../widgets/ConfigLabelBool.vala:34
+msgid "No"
+msgstr "ياق"
+
+#: ../widgets/ConfigLabelPolicy.vala:64
+msgid ""
+"Old backups will be kept for at least six months or until the backup "
+"location is low on space."
+msgstr ""
+"كونا زاپاس ھۆججەتلەر ئاز دېگەندە ئالتە ئاي ساقلىنىدۇ ياكى زاپاس ھۆججەتلەر "
+"بار يەرنىڭ سىغىمى ئاز قالغۇچە ساقلىنىدۇ."
+
+#: ../widgets/ConfigLabelPolicy.vala:66
+msgid ""
+"Old backups will be kept for at least a year or until the backup location is "
+"low on space."
+msgstr ""
+"كونا زاپاس ھۆججەتلەر ئاز دېگەندە بىر يىل ساقلىنىدۇ ياكى زاپاس ھۆججەتلەر بار "
+"يەرنىڭ سىغىمى ئاز قالغۇچە ساقلىنىدۇ."
+
+#: ../widgets/ConfigLabelPolicy.vala:68
+msgid "Old backups will be kept until the backup location is low on space."
+msgstr ""
+"كونا زاپاس ھۆججەتلەر زاپاس ھۆججەتلەر بار يەرنىڭ سىغىمى ئاز قالغۇچە ساقلىنىدۇ."
+
+#: ../widgets/ConfigLabelPolicy.vala:71
+#, c-format
+msgid ""
+"Old backups will be kept at least %d day or until the backup location is low "
+"on space."
+msgid_plural ""
+"Old backups will be kept at least %d days or until the backup location is "
+"low on space."
+msgstr[0] ""
+"كونا زاپاس ھۆججەتلەر ئاز دېگەندە %d كۈن ساقلىنىدۇ ياكى زاپاس ھۆججەتلەر بار "
+"يەرنىڭ سىغىمى ئاز قالغۇچە ساقلىنىدۇ"
+
+#: ../widgets/ConfigList.vala:179
+msgid "_Add"
+msgstr "قوش(_A)"
+
+#: ../widgets/ConfigList.vala:180
+msgid "Add"
+msgstr "قوش"
+
+#: ../widgets/ConfigList.vala:188
+msgid "_Remove"
+msgstr "ئۆچۈر(_R)"
+
+#: ../widgets/ConfigList.vala:189
+msgid "Remove"
+msgstr "چىقىرىۋەت"
+
+#: ../widgets/ConfigList.vala:275
+msgid "Choose folders"
+msgstr "قىسقۇچلارنى تاللاش"
+
+#: ../widgets/ConfigLocation.vala:118
+msgid "SSH"
+msgstr "SSH"
+
+#: ../widgets/ConfigLocation.vala:120
+msgid "Windows Share"
+msgstr "Windows ھەمبەھىر"
+
+#: ../widgets/ConfigLocation.vala:122
+msgid "FTP"
+msgstr "FTP"
+
+#: ../widgets/ConfigLocation.vala:124
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: ../widgets/ConfigLocation.vala:127
+msgid "Custom Location"
+msgstr "ئىختىيارىي ئورۇن"
+
+#. And a local folder option
+#: ../widgets/ConfigLocation.vala:133
+msgid "Local Folder"
+msgstr "يەرلىك قىسقۇچ"
+
+#: ../widgets/ConfigLocationCustom.vala:33
+msgid "_URI"
+msgstr "_URI"
+
+#: ../widgets/ConfigLocationDAV.vala:31 ../widgets/ConfigLocationFTP.vala:32
+#: ../widgets/ConfigLocationSMB.vala:31 ../widgets/ConfigLocationSSH.vala:31
+msgid "_Server"
+msgstr "مۇلازىمېتىر(_S)"
+
+#: ../widgets/ConfigLocationDAV.vala:38
+msgid "Use secure connection (_HTTPS)"
+msgstr "بىخەتەر باغلىنىش ئىشلەت(_HTTPS)"
+
+#: ../widgets/ConfigLocationDAV.vala:43 ../widgets/ConfigLocationFTP.vala:35
+#: ../widgets/ConfigLocationSSH.vala:34
+msgid "_Port"
+msgstr "ئېغىز(_P)"
+
+#: ../widgets/ConfigLocationDAV.vala:46 ../widgets/ConfigLocationFTP.vala:38
+#: ../widgets/ConfigLocationFile.vala:45 ../widgets/ConfigLocationS3.vala:33
+#: ../widgets/ConfigLocationSMB.vala:34 ../widgets/ConfigLocationSSH.vala:37
+#: ../widgets/ConfigLocationU1.vala:33 ../widgets/ConfigLocationVolume.vala:33
+msgid "_Folder"
+msgstr "قىسقۇچ(_F)"
+
+#: ../widgets/ConfigLocationFile.vala:39
+msgid "_Choose Folder…"
+msgstr "قىسقۇچ تاللا(_C)…"
+
+#: ../widgets/ConfigLocationFile.vala:50
+msgid "Choose Folder"
+msgstr "قىسقۇچ تاللاش"
+
+#: ../widgets/ConfigLocationRackspace.vala:33
+msgid "_Container"
+msgstr "قاچا(_C)"
+
+#: ../widgets/ConfigLocationS3.vala:31
+msgid "S3 Access Key I_D"
+msgstr "S3 زىيارەت ئاچقۇچى كىملىكى(_D)"
+
+#: ../widgets/ConfigLocationSMB.vala:40
+msgid "_Domain Name"
+msgstr "دائىرە ئاتى(_D)"
+
+#: ../widgets/ConfigPeriod.vala:36
+msgid "Daily"
+msgstr "كۈندە"
+
+#: ../widgets/ConfigPeriod.vala:37
+msgid "Weekly"
+msgstr "ھەر ھەپتىدە"
+
+#: ../widgets/ConfigPeriod.vala:82
+#, c-format
+msgid "Every %d day"
+msgid_plural "Every %d days"
+msgstr[0] "ھەر %d كۈندە"
+
+#: ../widgets/WidgetUtils.vala:30
+#, c-format
+msgid "Could not display %s"
+msgstr "%s نى كۆرسەتكىلى بولمىدى"
+
+#~ msgid "Monthly"
+#~ msgstr "ھەر ئايدا"
+
+#~ msgid ""
+#~ "Without duplicity, Déjà Dup Backup Tool cannot function. It will close now."
+#~ msgstr ""
+#~ "duplicity بولمىسا Déjà Dup زاپاسلاش قورالى ئىشلىمەيدۇ. ئۇ ھازىر يېپىلىدۇ."
+
+#~ msgid "At least a month"
+#~ msgstr "ئاز دېگەندە بىر ئاي"
+
+#~ msgid "At least two months"
+#~ msgstr "ئاز دېگەندە ئىككى ئاي"
+
+#~ msgid "At least three months"
+#~ msgstr "ئاز دېگەندە ئۈچ ئاي"
+
+#~ msgid ""
+#~ "Old backups will be kept for at least a month or until the backup location "
+#~ "is low on space."
+#~ msgstr ""
+#~ "كونا زاپاس ھۆججەتلەر ئاز دېگەندە بىر ئاي ساقلىنىدۇ ياكى زاپاس ھۆججەتلەر بار "
+#~ "يەرنىڭ سىغىمى ئاز قالغۇچە ساقلىنىدۇ."
+
+#~ msgid ""
+#~ "Old backups will be kept for at least two months or until the backup "
+#~ "location is low on space."
+#~ msgstr ""
+#~ "كونا زاپاس ھۆججەتلەر ئاز دېگەندە ئىككى ئاي ساقلىنىدۇ ياكى زاپاس ھۆججەتلەر "
+#~ "بار يەرنىڭ سىغىمى ئاز قالغۇچە ساقلىنىدۇ."
+
+#~ msgid ""
+#~ "Old backups will be kept for at least three months or until the backup "
+#~ "location is low on space."
+#~ msgstr ""
+#~ "كونا زاپاس ھۆججەتلەر ئاز دېگەندە ئۈچ ئاي ساقلىنىدۇ ياكى زاپاس ھۆججەتلەر بار "
+#~ "يەرنىڭ سىغىمى ئاز قالغۇچە ساقلىنىدۇ."
+
+#~ msgid "Every 2 weeks"
+#~ msgstr "ھەر 2 ھەپتىدە"
+
+#~ msgid "You must specify a Rackspace container in your preferences."
+#~ msgstr "مايىللىقتا Rackspace قاچىسىنى كۆرسىتىپ بېرىشىڭىز كېرەك."
+
+#~ msgid "Could not run duplicity"
+#~ msgstr "duplicity نى ئىجرا قىلغىلى بولمىدى"
+
+#~ msgid ""
+#~ "Could not understand duplicity version.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "duplicity نىڭ نەشرىنى چۈشەنگىلى بولمىدى\n"
+#~ "\n"
+
+#, c-format
+#~ msgid ""
+#~ "Could not understand duplicity version ‘%s’.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "duplicity نىڭ نەشرى ‹%s› نى چۈشەنگىلى بولمىدى\n"
+#~ "\n"
+
+#~ msgid "Duplicity’s version is too old"
+#~ msgstr "Duplicity نىڭ نەشرى بەك كونا ئىكەن"

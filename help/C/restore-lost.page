@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      its:version="1.0"
+      type="topic"
+      id="restore-lost">
+<info>
+  <desc>Restore a file that is no longer present</desc>
+  <link type="guide" xref="index#restore"/>
+</info>
+<title>Restoring a Lost File</title>
+<steps>
+  <item><p>Browse to the folder containing the file you lost.</p></item>
+  <item><p>Click <guiseq><gui style="menuitem">File</gui><gui style="menuitem">Restore Missing Files…</gui></guiseq>.</p></item>
+  <item><p>When the <gui>Restore</gui> dialog appears, it will scan for files that are in the backup but no longer in the folder.</p></item>
+  <item><p>When you see the file you want to restore appear, select it and click <gui style="button">Forward</gui>.</p></item>
+  <item><p>Review your selections and click <gui style="button">Restore</gui>.</p></item>
+</steps>
+<note style="advanced"><p>You can restore lost files from the command line as well, if you remember what their filenames were:</p>
+  		                 <screen><span its:translate="no">deja-dup --restore </span>FILE1 FILE2</screen></note>
+</page>

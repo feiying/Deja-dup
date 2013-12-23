@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+
+_Name=Backup
+
+_X-Ubuntu-Software-Center-Name=Déjà Dup Backup Tool
+
+Icon=deja-dup
+TryExec=deja-dup
+Exec=deja-dup --backup
+
+StartupNotify=true
+NoDisplay=true
+
+Type=Application
+Categories=GNOME;GTK;Archiving;Utility;

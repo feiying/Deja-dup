@@ -1,0 +1,53 @@
+/* -*- Mode: Vala; indent-tabs-mode: nil; tab-width: 2 -*- */
+using GLib;
+
+namespace DejaDup {
+
+public const string APPS_ROOT = "Apps";
+public const string APPS_APPS_KEY = "apps";
+
+public class ConfigAppList : ConfigWidget
+{
+  public ConfigAppList(/*string key, string ns=""*/)
+  {
+    //Object(key: key, ns: ns);
+  }
+
+  construct {
+    var scroll = new Gtk.ScrolledWindow(null, null);
+    scroll.hscrollbar_policy = Gtk.PolicyType.AUTOMATIC;
+    scroll.vscrollbar_policy = Gtk.PolicyType.AUTOMATIC;
+    scroll.shadow_type = Gtk.ShadowType.IN;
+    add(scroll);
+
+    var viewport = new Gtk.Viewport(null, null);
+    scroll.add(viewport);
+
+    var table = new Gtk.Grid();    
+    viewport.add(table);
+
+    int i;
+    for(i = 0; i < 20; i++) {
+      var app = new DejaDup.ConfigApp();
+      table.attach(app, 0, i, 1, 1);
+      /*
+      var label = new Gtk.Label(_(@"App $i"));
+      label.set("use-underline", true,
+                "xalign", 0.0f,
+                "yalign", 0.0f);
+      table.attach(label, 0, i, 1, 1);
+      */
+    }
+
+    settings = DejaDup.get_settings(APPS_ROOT);
+    settings.set_string(APPS_APPS_KEY, "helllo, world");
+    set_from_config.begin();
+  }
+
+  protected override async void set_from_config()
+  {
+  }
+}
+
+}
+

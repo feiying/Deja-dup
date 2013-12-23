@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      its:version="1.0"
+      type="topic"
+      id="restore-revert">
+<info>
+  <desc>Restore a previous version of a file</desc>
+  <link type="guide" xref="index#restore"/>
+</info>
+<title>Reverting a File</title>
+<steps>
+  <item><p>Browse to the folder containing the file you want to revert.</p></item>
+  <item><p>Select the file you want to revert by clicking on it.</p></item>
+  <item><p>Click <guiseq><gui style="menuitem">Edit</gui><gui style="menuitem">Revert to Previous Version…</gui></guiseq>.</p></item>
+  <item><p>When the <gui>Restore</gui> dialog appears, choose the date from which to restore.</p></item>
+  <item><p>Click <gui style="button">Forward</gui>.</p></item>
+  <item><p>Review your selections and click <gui style="button">Restore</gui>. Note that this will overwrite your current version of the file.</p></item>
+</steps>
+<note style="tip"><p>You can select multiple files at once before reverting.</p></note>
+<note style="advanced"><p>You can also revert files on the command line:</p>
+  		                 <screen><span its:translate="no">deja-dup --restore </span>FILE1 FILE2</screen></note>
+</page>

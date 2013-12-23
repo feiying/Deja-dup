@@ -1,0 +1,8 @@
+[Plugin]
+Loader=c
+Module=libapps.so
+Name=Apps Config
+Description=Set up which app need back up
+Authors=Kyle Shen
+Copyright=
+Website=

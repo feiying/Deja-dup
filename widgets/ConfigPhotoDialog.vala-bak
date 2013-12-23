@@ -1,0 +1,166 @@
+/* -*- Mode: Vala; indent-tabs-mode: nil; tab-width: 2 -*- */
+using GLib;
+
+namespace DejaDup {
+
+public class ConfigPhotoDialog : Gtk.Dialog {
+	private Gtk.Switch button1;
+	private Gtk.Switch button2;
+	private int64 sumary;
+	//private Gtk.CheckButton find_backwards;
+	//private Gtk.Widget find_button;
+
+	public signal void photo_toggled (bool sensitivity);
+	//public signal void find_previous (string text, bool case_sensitivity);
+
+	public ConfigPhotoDialog () {
+		this.title = "Photo Stream";
+		this.border_width = 5;
+		set_default_size (400, 100);
+		set_modal(true);
+		create_widgets ();
+		connect_signals ();
+		sumary =  0;
+	}
+
+	private void create_widgets () {
+		// Create and setup widgets
+		//this.search_entry = new Gtk.Entry ();
+		Gtk.Label title_label = new Gtk.Label.with_mnemonic ("Photo Stream");
+		title_label.set("use-markup", true,
+              		"xalign", 0.5f);
+		Gtk.Label label1 = new Gtk.Label.with_mnemonic ("My Photo Stream");
+		button1 = new Gtk.Switch();
+		Gtk.Label description1 = new Gtk.Label.with_mnemonic ("Automaticlly upload photos and send them to all of you devices.");
+		description1.set("use-markup", true,
+              		"xalign", 0.5f);
+		Gtk.Label label2 = new Gtk.Label.with_mnemonic ("Shared Photo Streams");
+		Gtk.Label description2 = new Gtk.Label.with_mnemonic ("Create photo streams to share with other people.");
+		button2 = new Gtk.Switch();
+		//search_label.mnemonic_widget = this.search_entry;
+		//this.match_case = new Gtk.CheckButton.with_mnemonic ("_Match case");
+		//this.find_backwards = new Gtk.CheckButton.with_mnemonic ("Find _backwards");
+
+		// Layout widgets
+		Gtk.Box hbox1 = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 20);
+		hbox1.pack_start (title_label, false, true, 0);
+		//hbox.pack_start (this.search_entry, true, true, 0);
+
+		Gtk.Box hbox2 = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 20);
+		hbox2.pack_start (label1, false, true, 0);
+		hbox2.pack_start (button1, true, true, 0);
+
+		Gtk.Box hbox3 = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 20);
+		hbox3.pack_start (label2, false, true, 0);
+		hbox3.pack_start (button2, true, true, 0);
+
+		Gtk.Box content = get_content_area () as Gtk.Box;
+		//content.pack_start (hbox1, false, true, 0);
+		content.pack_start (hbox2, false, true, 0);
+		content.pack_start (description1, false, true, 0);
+		//content.pack_start (hbox3, false, true, 0);
+		//content.pack_start (description2, false, true, 0);
+		//content.pack_start (this.find_backwards, false, true, 0);
+		content.spacing = 10;
+
+		var settings = DejaDup.get_settings(APPS_ROOT+".photo-stream");
+                var val1 = settings.get_boolean(BACKUP_KEY);
+                button1.set_active(val1);
+                //var val2 = settings.get_boolean("share");
+                //button2.set_active(val2);
+		button1.notify["active"].connect(handle_toggled1);
+		//button2.notify["active"].connect(handle_toggled2);
+
+		// Add buttons to button area at the bottom
+		//add_button (Gtk.Stock.HELP, Gtk.ResponseType.HELP);
+		add_button (Gtk.Stock.CLOSE, Gtk.ResponseType.CLOSE);
+		//this.find_button = add_button (Gtk.Stock.FIND, Gtk.ResponseType.APPLY);
+		//this.find_button.sensitive = false;
+	}
+
+	private void connect_signals () {
+		//this.search_entry.changed.connect (() => {
+		//	this.find_button.sensitive = (this.search_entry.text != "");
+		//});
+		this.response.connect (on_response);
+	}
+
+	private void on_response (Gtk.Dialog source, int response_id) {
+		switch (response_id) {
+		/*case Gtk.ResponseType.HELP:
+			// show_help ();
+			break;
+		case Gtk.ResponseType.APPLY:
+			on_find_clicked ();
+			break;*/
+		case Gtk.ResponseType.CLOSE:
+			destroy ();
+			break;
+		}
+	}
+
+	private void on_find_clicked () {
+		/*string text = this.search_entry.text;
+		bool cs = this.match_case.active;
+		if (this.find_backwards.active) {
+			find_previous (text, cs);
+		} else {
+			find_next (text, cs);
+		}*/
+	}
+
+	private void handle_toggled1() {
+		var set = DejaDup.get_settings(APPS_ROOT+".photo-stream");
+		set.set_boolean(BACKUP_KEY, button1.get_active());
+		photo_toggled(button1.get_active());
+
+		//var file = File.new_for_path ("/tmp/aaa");
+		//var file_info = file.query_info ("*", FileQueryInfoFlags.NONE);
+		//var size = file_info.get_size ();
+		sumary =  0;
+		int64 size = list_dir("/home/king/test");
+		//stdout.printf("%lld------\n",size);
+	}
+
+	private async int64 list_dir(string path) {
+		var dir = File.new_for_path(path);
+		stdout.printf("------start------\n");
+		if (dir.query_file_type (0) != FileType.DIRECTORY) {
+			stdout.printf("------file------\n");
+			var file_info = dir.query_info ("*", FileQueryInfoFlags.NONE);
+			print("%s, ", file_info.get_name());
+			print("%lld\n", file_info.get_size());
+			return sumary + file_info.get_size();
+		} else {	
+			stdout.printf("------directory------\n");
+        		var e = yield dir.enumerate_children_async(
+           			FileAttribute.STANDARD_NAME, 0, Priority.DEFAULT, null);
+        		while (true) {
+				stdout.printf("------in loop------\n");
+        			var files = yield e.next_files_async(
+               				10, Priority.DEFAULT, null);
+        			if (files == null) {
+					stdout.printf("------nothing------\n");
+               				break;
+         			}
+            			foreach (var info in files) {
+					if (dir.query_file_type (0) != FileType.DIRECTORY) {
+						print("%s, ", info.get_name());
+                				print("%lld\n", info.get_size());
+						return sumary + info.get_size();
+					} else {
+						return sumary + list_dir(path+"/"+info.get_name());
+					}
+            			}
+        		}
+		}
+	}
+
+	//private void handle_toggled2() {
+	//	stdout.printf("toggle photo 2222222\n");
+	//	var set = DejaDup.get_settings(APPS_ROOT+".photo-stream");
+	//	set.set_boolean("share", button2.get_active());
+	//}
+}
+
+}
